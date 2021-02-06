@@ -12,5 +12,8 @@
 	    $('.remove-player').click(function() {$(this).parent().parent().remove();});
 		$('li a').click(function() {$(this).toggleClass('text-decoration-line-through btn-danger');});
 		$('input[name="color"]').click(function() {$(this).parent().parent().parent().attr('class', 'panel p-4 m-4 ' + $(this).val());});    		    		
-    });
+    
+		var myCarousel = document.querySelector('#myCarousel');
+		var carousel = new bootstrap.Carousel(myCarousel);	
+	});
 })(jQuery);
