@@ -12,8 +12,8 @@
 	    $('.remove-player').click(function() {$(this).parent().parent().remove();});
 		$('li a').click(function() {$(this).toggleClass('text-decoration-line-through btn-danger');});
 		$('input[name="color"]').click(function() {
-			$(this).parent().parent().parent().attr('class', 'p-4 mb-4 ' + $(this).val());
-			$(this).parent().parent().parent().prev().attr('class', 'player-name mb-0 ' + $(this).val());
+			$(this).parent().parent().parent().next().attr('class', 'px-4 pb-4 pt-1 ' + $(this).val());
+			$(this).parent().parent().parent().attr('class', 'player-name mb-0 ' + $(this).val());
 		});    		    		
 	});
 })(jQuery);

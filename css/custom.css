@@ -114,7 +114,7 @@ input[name*="color"]:checked:after {
 .red li input[type="radio"]::after {
     border-color: white;
 }
-h4.player-name {
+.player-name {
     position: sticky;
     top: 0;
     padding: .5rem;
