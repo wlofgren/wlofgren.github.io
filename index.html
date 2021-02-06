@@ -15,49 +15,62 @@
   </head>
   <body>
 
-<div class="container text-center my-3"><a class="btn btn-info" href="https://ospreypublishing.com/playcryptid/" target="_blank">Play Cryptid</a></div>
+    <div class="container text-center my-3">
+        <a class="btn btn-info" href="https://ospreypublishing.com/playcryptid/" target="_blank">Play Cryptid</a>
+    </div>
 
     <div class="hidden row clone">
     <div class="col-sm-6 single-player">
         <div class="panel p-4 m-4">
-        <input class="col-sm-12 col-xs-12 my-2" type="text" value="" placeholder="Player Name">
+            <div class="my-2 row align-items-center">
+                <div class="col-6">
+                    <input type="text" placeholder="Player Name">
+                </div>
+                <div class="col-6">
+                    <input type="radio" name="color" value="blue">
+                    <input type="radio" name="color" value="orange">
+                    <input type="radio" name="color" value="green">
+                    <input type="radio" name="color" value="purple">
+                    <input type="radio" name="color" value="red">
+                </div>
+            </div> 
         <h4>On one of two types of terrain:</h4>
         <ul>
-            <li><a>On forest or desert</a> <input type="checkbox"></li>
-            <li><a>On forest or water</a> <input type="checkbox"></li>
-            <li><a>On forest or swamp</a> <input type="checkbox"></li>
-            <li><a>On forest or mountain</a> <input type="checkbox"></li>
-            <li><a>On desert or water</a> <input type="checkbox"></li>
-            <li><a>On desert or swamp</a> <input type="checkbox"></li>
-            <li><a>On desert or mountain</a> <input type="checkbox"></li>
-            <li><a>On water or swamp</a> <input type="checkbox"></li>
-            <li><a>On water or mountain</a> <input type="checkbox"></li>
-            <li><a>On swamp or mountain</a> <input type="checkbox"></li>
+            <li><a>On forest or desert</a> <input type="radio" name="your-clue"></li>
+            <li><a>On forest or water</a> <input type="radio" name="your-clue"></li>
+            <li><a>On forest or swamp</a> <input type="radio" name="your-clue"></li>
+            <li><a>On forest or mountain</a> <input type="radio" name="your-clue"></li>
+            <li><a>On desert or water</a> <input type="radio" name="your-clue"></li>
+            <li><a>On desert or swamp</a> <input type="radio" name="your-clue"></li>
+            <li><a>On desert or mountain</a> <input type="radio" name="your-clue"></li>
+            <li><a>On water or swamp</a> <input type="radio" name="your-clue"></li>
+            <li><a>On water or mountain</a> <input type="radio" name="your-clue"></li>
+            <li><a>On swamp or mountain</a> <input type="radio" name="your-clue"></li>
         </ul>
         <h4>Within one space of a certain terrain type or animal territory:</h4>
         <ul>
-            <li><a>Within one space of forest</a> <input type="checkbox"></li>
-            <li><a>Within one space of desert</a> <input type="checkbox"></li>
-            <li><a>Within one space of swamp</a> <input type="checkbox"></li>
-            <li><a>Within one space of mountain</a> <input type="checkbox"></li>
-            <li><a>Within one space of water</a> <input type="checkbox"></li>
-            <li><a>Within one space of either animal territory</a> <input type="checkbox"></li>
+            <li><a>Within one space of forest</a> <input type="radio" name="your-clue"></li>
+            <li><a>Within one space of desert</a> <input type="radio" name="your-clue"></li>
+            <li><a>Within one space of swamp</a> <input type="radio" name="your-clue"></li>
+            <li><a>Within one space of mountain</a> <input type="radio" name="your-clue"></li>
+            <li><a>Within one space of water</a> <input type="radio" name="your-clue"></li>
+            <li><a>Within one space of either animal territory</a> <input type="radio" name="your-clue"></li>
         </ul>
         <h4>Within two spaces of a type of animal or a type of structure:</h4>
         <ul>
-            <li><a>Within two spaces of a standing stone</a> <input type="checkbox"></li>
-            <li><a>Within two spaces of an abandoned shack</a> <input type="checkbox"></li>
-            <li><a>Within two spaces of cougar territory</a> <input type="checkbox"></li>
-            <li><a>Within two spaces of bear territory</a> <input type="checkbox"></li>
+            <li><a>Within two spaces of a standing stone</a> <input type="radio" name="your-clue"></li>
+            <li><a>Within two spaces of an abandoned shack</a> <input type="radio" name="your-clue"></li>
+            <li><a>Within two spaces of cougar territory</a> <input type="radio" name="your-clue"></li>
+            <li><a>Within two spaces of bear territory</a> <input type="radio" name="your-clue"></li>
         </ul>
         <h4>Within three spaces of a color of structure:</h4>
         <ul>
-            <li><a>Within three spaces of a blue structure</a> <input type="checkbox"></li>
-            <li><a>Within three spaces of a white structure</a> <input type="checkbox"></li>
-            <li><a>Within three spaces of a green structure</a> <input type="checkbox"></li>
-            <li><a>Within three spaces of a black structure</a> <input type="checkbox"></li>
+            <li><a>Within three spaces of a blue structure</a> <input type="radio" name="your-clue"></li>
+            <li><a>Within three spaces of a white structure</a> <input type="radio" name="your-clue"></li>
+            <li><a>Within three spaces of a green structure</a> <input type="radio" name="your-clue"></li>
+            <li><a>Within three spaces of a black structure</a> <input type="radio" name="your-clue"></li>
         </ul>
-          <a class="btn btn-danger remove-player">Remove Player</a>
+          <a class="btn btn-danger btn-sm remove-player">Remove Player</a>
     </div>
     </div>
 </div>
