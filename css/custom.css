@@ -66,6 +66,14 @@ input[type="radio"]::after {
 input[type="radio"]::after {
     border-radius: 50%;
 }
+.player-name {
+    position: sticky;
+    top: 0;
+    padding: .5rem;
+    z-index: 1;
+    color: white;
+    background: white;
+}
 .blue, input[value="blue"]::after {
     background-color: var(--blue);
 }
@@ -114,11 +122,15 @@ input[name*="color"]:checked:after {
 .red li input[type="radio"]::after {
     border-color: white;
 }
-.player-name {
+footer {
     position: sticky;
-    top: 0;
-    padding: .5rem;
-    z-index: 1;
-    color: white;
+    bottom: 0;
+    z-index: 2;
+}
+footer .col-6 {
+    padding: 0;
+}
+footer .col-6 a {
+    border-radius: 0;
 }
 

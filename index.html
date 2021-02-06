@@ -15,16 +15,12 @@
   </head>
   <body>
 
-    <div class="container text-center my-3">
-        <a class="btn btn-info" href="https://ospreypublishing.com/playcryptid/" target="_blank">Play Cryptid</a>
-    </div>
-
     <div class="hidden row clone">
     <div class="col-sm-6 single-player">
         <h4 class="player-name mb-0">
-            <div class="mb-3 pt-3 row align-items-top">
-                <div class="col-8"><input type="text" placeholder="Player Name"></div>
-                <div class="col-4">
+            <div class="mb-3 pt-3 row">
+                <div class="col-12"><input class="btn-block" type="text" placeholder="Player Name"></div>
+                <div class="col-12 text-center">
                     <input type="radio" name="color" value="blue">
                     <input type="radio" name="color" value="orange">
                     <input type="radio" name="color" value="green">
@@ -80,12 +76,17 @@
     <div class="row clues">
     </div>
     
-    <div class="container text-center my-5">
-        <a class="btn btn-primary add-new-player">Add New Player</a>
-    </div>
+    <footer class="bg-light">
+        <div class="row text-center my-3">
+            <div class="col-6">
+                <a class="btn btn-info btn-block" href="https://ospreypublishing.com/playcryptid/" target="_blank">Setup Game</a>
+            </div>
+            <div class="col-6">
+                <a class="btn btn-block btn-primary add-new-player">Add New Player</a>
+            </div>
+        </div>    
+    </footer>
 
-<div class="fixed-bottom">
-</div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
